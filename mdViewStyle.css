@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(49, 49, 49);
+    color: aliceblue;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 8px;
+    
+}
+
+.content{
+color: aliceblue;
+}
+
+#textInput{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 8px;
+    border-color: rgb(49, 49, 49);
+    scrollbar-color:  rgb(49, 49, 49);
+    scrollbar-base-color: rgb(49, 49, 49) ;
+    scrollbar-face-color:rgb(49, 49, 49);
+    scrollbar-shadow-color: rgb(49, 49, 49);
+    scrollbar-highlight-color: rgb(49, 49, 49);
+    scrollbar-arrow-color: rgb(49, 49, 49);
+    resize: none;
+    color: rgb(49, 49, 49);
+    
+}
+
+#updateButton{
+    padding: 8px;
+    border-radius: 16px;
+    border: 0px;
+    color: rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    font-weight: bold;
+}
